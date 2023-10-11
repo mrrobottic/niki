@@ -1,0 +1,87 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "black-black-5": "#0b0b0f",
+        "black-black-100": "#fff",
+        "black-black-60": "#898ca9",
+        "black-black-12": "#1a1b23",
+        "primary-purple": "#b982ff",
+        "system-green": "#0dbb7c",
+        "black-black-20": "#2b2c3b",
+        "system-red": "#ff8282",
+        "black-black-40": "#565976",
+        gray: {
+          "100": "#15192c",
+          "200": "rgba(11, 11, 15, 0.2)",
+        },
+        ghostwhite: "#f8f9fc",
+        black: "#000",
+        aliceblue: {
+          "100": "#f1fbff",
+          "200": "#eaf9ff",
+        },
+        crimson: "#fd2254",
+        lavenderblush: {
+          "100": "#fff2f5",
+          "200": "#ffebef",
+        },
+        blue: "#551fff",
+        lavender: {
+          "100": "#f3f0ff",
+          "200": "#ede8ff",
+        },
+        orangered: "#ff6a00",
+        seashell: "#fff7f0",
+        lightslategray: "#92959e",
+        lightgray: "#d0d2da",
+        deepskyblue: "#00b7fe",
+        whitesmoke: {
+          "100": "#f4f5f7",
+          "200": "#ececee",
+        },
+        blueviolet: "#7549ff",
+        linen: "#fff2e9",
+      },
+      spacing: {},
+      fontFamily: {
+        "button-16": "Inter",
+        "avertastd-regular": "AvertaStd-Regular",
+        "avertastd-bold": "AvertaStd-Bold",
+        "averta-semibold": "Averta-Semibold",
+        "averta-regular": "Averta-Regular",
+      },
+      borderRadius: {
+        "3xs": "10px",
+        "6xl": "25px",
+        "base-9": "16.9px",
+        "xs-3": "11.3px",
+        "51xl-4": "70.4px",
+        "4xs-5": "8.5px",
+      },
+    },
+    fontSize: {
+      base: "16px",
+      sm: "14px",
+      "66xl": "85px",
+      "13xl": "32px",
+      "31xl": "50px",
+      xl: "20px",
+      "smi-7": "12.7px",
+      "3xs-9": "9.9px",
+      "base-9": "16.9px",
+      "mini-1": "14.1px",
+      "xs-3": "11.3px",
+      "4xs-5": "8.5px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
